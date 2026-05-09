@@ -1,0 +1,195 @@
+:root {
+  --primary-color: #ff530f;
+}
+a {
+  color: inherit;
+}
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+p {
+  padding: 0;
+  margin: 0;
+}
+.bg-main {
+  background-color: var(--primary-color);
+}
+.text-main {
+  color: var(--primary-color);
+}
+.border-main {
+  border-color: var(--primary-color);
+}
+.text-sm {
+  font-size: 14px;
+}
+.text-xs {
+  font-size: 12px;
+}
+.text-gray {
+  color: gray;
+}
+.bg-beige {
+  background-color: #fffbe9;
+}
+/* Navbar */
+.navbar {
+  border-bottom: 1px solid #e9e9e9;
+  padding: 16px 0;
+}
+.nav-item.nav-profile {
+  width: 42px;
+  border: 2px solid var(--primary-color);
+}
+.navbar .nav-item:hover {
+  color: #ff530f;
+}
+.navbar .nav-item a {
+  color: #5b6475;
+  transition: 0.3s;
+}
+.navbar .nav-item a:hover {
+  color: var(--primary-color);
+}
+.logo-circle {
+  width: 52px;
+  height: 52px;
+  font-size: 18px;
+}
+/* Main */
+.main-content {
+  height: 48.75rem;
+}
+.bottom-of-layer {
+  top: 80%;
+  width: 90%;
+}
+/* Right of card  */
+
+.action-btn {
+  width: 55px;
+  height: 55px;
+  background: #ffedd4;
+  color: var(--primary-color);
+  transition: 0.2s;
+}
+.action-btn:hover {
+  background-color: #ffd6a7;
+}
+.tab-btn.active {
+  color: var(--primary-color);
+  border-bottom: 2px solid var(--primary-color);
+}
+
+.ingredient-box {
+  background: #fff9ec;
+  border-radius: 20px;
+  max-height: 380px;
+  overflow-y: auto;
+}
+
+.ingredient-number {
+  width: 32px;
+  height: 32px;
+  background: var(--primary-color);
+  color: white;
+  border-radius: 50%;
+  font-size: 12px;
+  font-weight: bold;
+}
+.recipe-btn {
+  background: linear-gradient(to right, #ff7a00, #ff2d55);
+  border: none;
+  color: white;
+  padding: 14px 28px;
+  border-radius: 15px;
+  font-weight: 600;
+  transition: 0.2s;
+}
+.recipe-btn:hover{
+  scale: 1.05;
+  filter: grayscale(0.1);
+} 
+.recipe-tabs .nav-link {
+  border: none;
+  color: #6c757d;
+  font-weight: 600;
+  padding: 10px 10px 8px;
+  transition: 0.2s;
+}
+.recipe-tabs .nav-link i {
+  margin-right: 8px;
+}
+.recipe-tabs .nav-link.active {
+  color: var(--primary-color);
+  border-bottom: 3px solid var(--primary-color);
+  background: transparent;
+}
+.recipe-tabs .nav-link:hover {
+  color: black;
+}
+.tab-scroll {
+  max-height: 380px;
+  overflow-y: auto;
+}
+.step-number {
+  min-width: 50px;
+  height: 50px;
+  background: var(--primary-color);
+  color: white;
+  border-radius: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.step-text {
+  font-size: 16px;
+  color: #596275;
+  margin-top: 10px;
+}
+
+.nutrition-card {
+  background: #f8f8f8;
+  border-radius: 18px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nutrition-icon {
+  width: 45px;
+  height: 45px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tip-card {
+  background: #FFFBEB;
+  border-left: 5px solid orange;
+  border-radius: 18px;
+  padding: 22px;
+  font-size: 16px;
+  color: #596275;
+}
+
+.tip-card i {
+  color: #d97706;
+}
+.tab-pane.fade{
+  min-height: 380px;
+}
+.alert{
+  background-color: #FEF2F2;
+  border-left: 5px solid var(--primary-color);
+}
+.alert h2{
+  color: darkred;
+}
